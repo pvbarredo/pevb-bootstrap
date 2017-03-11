@@ -1,0 +1,29 @@
+{
+  "name": "pevb-bootstrap",
+  "main": "pevb-bootstrap.js",
+  "authors": [
+    "Peter Barredo pvbarredo@gmail.com"
+  ],
+  "version": "0.0.1",
+  "description": "Custom alert confirmation box made using Bootstrap #Angular",
+  "keywords": [
+    "angular",
+    "alert",
+    "confirmation",
+    "pop-up",
+    "bootstrap",
+    "customAlert",
+    "pevb",
+    "peter",
+    "barredo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
