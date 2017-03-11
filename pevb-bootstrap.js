@@ -13,8 +13,7 @@ angular.module("pevb.bootstrap.alert",[])
 	.constant()
 	.factory('$alert', function(){
 		return {
-			confirmationBox : confirmationBox,
-			printConsole : printConsole
+			confirmationBox : confirmationBox
 		}
 
 		function confirmationBox(title, text, callbackFn, id){
