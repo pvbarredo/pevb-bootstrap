@@ -1,10 +1,10 @@
 {
   "name": "pevb-bootstrap",
+  "version": "0.1.0",
   "main": "pevb-bootstrap.js",
   "authors": [
     "Peter Barredo pvbarredo@gmail.com"
   ],
-  "version": "0.1.0",
   "description": "Custom alert confirmation box made using Bootstrap #Angular",
   "keywords": [
     "angular",
