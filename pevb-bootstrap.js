@@ -1,7 +1,7 @@
 /* 
  * pevb-bootstrap
  *	
- * Version: 0.0.1
+ * Version: 0.1.0
  * Author : pvbarredo@gmail.com
  * 
  * Description: Custom alert confirmation box made using Bootstrap
@@ -13,7 +13,12 @@ angular.module("pevb.bootstrap.alert",[])
 	.constant()
 	.factory('$alert', function(){
 		return {
-			confirmationBox : confirmationBox
+			confirmationBox : confirmationBox,
+			consoleSample : consoleSample
+		}
+
+		function consoleSample(){
+			console.log("Testing the versioning");
 		}
 
 		function confirmationBox(title, text, callbackFn, id){
