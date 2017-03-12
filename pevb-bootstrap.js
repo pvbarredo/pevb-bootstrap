@@ -13,12 +13,7 @@ angular.module("pevb.bootstrap.alert",[])
 	.constant()
 	.factory('$alert', function(){
 		return {
-			confirmationBox : confirmationBox,
-			consoleSample : consoleSample
-		}
-
-		function consoleSample(){
-			console.log("Testing the versioning");
+			confirmationBox : confirmationBox
 		}
 
 		function confirmationBox(title, text, callbackFn, id){
@@ -48,6 +43,5 @@ angular.module("pevb.bootstrap.alert",[])
 	        $('body').append(messageBox);                
 	        $('#confirmDialog'+modalId +'').on("click",callbackFn);
 	        $('#'+modalId +'').modal('show');
-	        return false;
 	    };
 	});
